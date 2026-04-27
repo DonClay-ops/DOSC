@@ -947,7 +947,7 @@ const PAGES = [
   { id: "ops",  label: "Timeline, Compliance & Pricing" },
 ];
 
-export default function DOSCArchitecture() {
+function DOSCArchitecture() {
   const [page, setPage] = useState("arch");
 
   return (
@@ -996,3 +996,5 @@ export default function DOSCArchitecture() {
     </div>
   );
 }
+const root = ReactDOM.createRoot(document.getElementById("root"));
+root.render(<DOSCArchitecture />);
