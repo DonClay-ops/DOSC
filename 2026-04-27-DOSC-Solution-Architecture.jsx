@@ -3,7 +3,7 @@
 // Paste into any React environment with Tailwind or inline styles
 // Dependencies: React 18, no external libraries needed
 
-import { useState, useRef, useEffect } from "react";
+const { useState, useRef, useEffect } = React;
 
 const C = {
   navy:  "#1B3A6B",
